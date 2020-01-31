@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const controller = require("./controller")
 
-router.get("/all", controller.getAllLanguages)
+router.get("/list", controller.getPokemons)
 
 module.exports = router;
